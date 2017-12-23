@@ -1,0 +1,27 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+ <body>
+  <h2>Please pass a parameter to the URL to use this TimeStampMicroservice.</h2>
+   <h3>Example usage:</h3>
+   <code>https://understood-hardboard.glitch.me/December%2015,%202015</code>
+   <br><code>https://understood-hardboard.glitch.me/1450137600</code>
+     <h3>Example output:</h3>
+  <code>
+    { "unix": 1450137600, "natural" : "December 15, 2015" }
+  </code>
+  </body>
+  <footer>
+    <p>
+      Coded by <a href="https://codepen.io/attributeofextension/full/bapZQJ/" target="_blank">Leah Carr</a>
+    </p>
+  </footer>
+</html>
